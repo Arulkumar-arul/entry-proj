@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+body{
+   text-align:center;
+   background-image: url(asset/homeback.jpg);
+   background-repeat:no-repeat;
+   background-size:cover;
+}
+h1{
+	color:purple;
+	text-decoration-line:underline;
+	text-decoration-style:wavy;
+	text-transform: uppercase;
+	
+}
+div{
+	padding:100px;
+	margin:50px;
+}
+label{
+	color:white;
+	text-indent:100px;
+	font-weight: bold;
+}
+input{
+	cursor:pointer;
+}
+input:hover{
+	background-color: pink;
+	border: 2px solid red;
+}
+input::placeholder{
+	color: blue;
+}
+
+</style>
+</head>
+<body>
+<div>
+<h1>Login From</h1>
+<label for="username">Username</label>
+<input type="text" id="username" placeholder="Enter the username"><br><br>
+<label for="password">Password</label>
+<input type="password" id="password" placeholder="Enter the password"><br><br>
+<input type="submit" value="submit">
+</div>
+</body>
+</html>
